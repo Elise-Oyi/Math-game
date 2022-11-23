@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+   
+   <div class="container">
+    <h3 class="title">Math <span> game</span></h3>
+    <!-- <h1 id="game-status">heyy</h1> -->
+    <p class="math-problem"></p>
+    
+    <form action="" class="form">
+        <input type="text" class="input-field" autocomplete="off" placeholder="type your answer..."> 
+        <button type="submit" id="submit-btn">submit</button>
+    </form>
+    <p class="points">You need &nbsp <span id="points-needed">10</span>&nbsp more points and you are allowed &nbsp <span id="errors-allowed">3 </span>&nbsp more errors</p>
+    <!-- <div class="points">You need <span id="points-needed"> <p> 10</p>  </span> more points and you are allowed <span id="errors-allowed">3 </span> more errors</div> -->
+   
+
+   <div class="progress">
+    <div class="boxes">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    <div class="progress-inner"></div>
+   </div>
+
+   
+</div> 
+
+<div class="overlay">
+    <div class="overlay-inner">
+        <p class="end-message"></p>
+        <button type="submit" id="restart-btn">restart</button>
+    </div>
+</div>
+
+    <script src="script.js "></script>
+</body>
+</html>
